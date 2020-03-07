@@ -3,8 +3,8 @@ package conf_test
 import (
 	"testing"
 
-	"v2ray.com/core/common"
-	. "v2ray.com/ext/tools/conf"
+	. "github.com/gitamenet/ext/tools/conf"
+	"github.com/gitamenet/v2ray-core/common"
 )
 
 func TestBufferSize(t *testing.T) {

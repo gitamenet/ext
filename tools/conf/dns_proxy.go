@@ -1,8 +1,8 @@
 package conf
 
 import (
+	"github.com/gitamenet/v2ray-core/proxy/dns"
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/proxy/dns"
 )
 
 type DnsOutboundConfig struct{}

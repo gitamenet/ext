@@ -4,10 +4,10 @@ import (
 	"net"
 	"strings"
 
+	v2net "github.com/gitamenet/v2ray-core/common/net"
+	"github.com/gitamenet/v2ray-core/common/protocol"
+	"github.com/gitamenet/v2ray-core/proxy/freedom"
 	"github.com/golang/protobuf/proto"
-	v2net "v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/proxy/freedom"
 )
 
 type FreedomConfig struct {

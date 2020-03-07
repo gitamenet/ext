@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/crypto/openpgp"
 
-	"v2ray.com/core/common"
+	"github.com/gitamenet/v2ray-core/common"
 )
 
 const (

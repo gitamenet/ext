@@ -3,8 +3,8 @@ package conf_test
 import (
 	"testing"
 
-	"v2ray.com/core/proxy/http"
-	. "v2ray.com/ext/tools/conf"
+	. "github.com/gitamenet/ext/tools/conf"
+	"github.com/gitamenet/v2ray-core/proxy/http"
 )
 
 func TestHttpServerConfig(t *testing.T) {

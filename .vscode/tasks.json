@@ -15,7 +15,7 @@
         "kind": "build",
         "isDefault": true
       },
-      "args": ["v2ray.com/ext/..."],
+      "args": ["github.com/gitamenet/ext/..."],
       "problemMatcher": {
         "owner": "go",
         "fileLocation": ["relative", "${workspaceRoot}"],
@@ -29,7 +29,7 @@
     },
     {
       "label": "test",
-      "args": ["-p", "1", "v2ray.com/ext/..."],
+      "args": ["-p", "1", "github.com/gitamenet/ext/..."],
       "group": "test"
     }
   ]

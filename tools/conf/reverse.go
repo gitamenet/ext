@@ -1,8 +1,8 @@
 package conf
 
 import (
+	"github.com/gitamenet/v2ray-core/app/reverse"
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/app/reverse"
 )
 
 type BridgeConfig struct {

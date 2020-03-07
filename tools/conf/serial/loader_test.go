@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"v2ray.com/ext/tools/conf/serial"
+	"github.com/gitamenet/ext/tools/conf/serial"
 )
 
 func TestLoaderError(t *testing.T) {

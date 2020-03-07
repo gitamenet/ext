@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/gitamenet/ext/sysio"
+	. "github.com/gitamenet/ext/tools/conf"
+	"github.com/gitamenet/v2ray-core/app/dns"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/net"
+	"github.com/gitamenet/v2ray-core/common/platform"
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/app/dns"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/platform"
-	"v2ray.com/ext/sysio"
-	. "v2ray.com/ext/tools/conf"
 )
 
 func TestDnsConfigParsing(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/buf"
 )
 
 type FetchCommand struct{}

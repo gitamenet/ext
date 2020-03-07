@@ -3,8 +3,8 @@ package conf_test
 import (
 	"testing"
 
-	"v2ray.com/core/app/reverse"
-	"v2ray.com/ext/tools/conf"
+	"github.com/gitamenet/ext/tools/conf"
+	"github.com/gitamenet/v2ray-core/app/reverse"
 )
 
 func TestReverseConfig(t *testing.T) {

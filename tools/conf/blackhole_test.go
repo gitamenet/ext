@@ -3,9 +3,9 @@ package conf_test
 import (
 	"testing"
 
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/proxy/blackhole"
-	. "v2ray.com/ext/tools/conf"
+	. "github.com/gitamenet/ext/tools/conf"
+	"github.com/gitamenet/v2ray-core/common/serial"
+	"github.com/gitamenet/v2ray-core/proxy/blackhole"
 )
 
 func TestHTTPResponseJSON(t *testing.T) {

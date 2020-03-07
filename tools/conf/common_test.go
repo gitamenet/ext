@@ -5,12 +5,12 @@ import (
 	"os"
 	"testing"
 
+	"github.com/gitamenet/v2ray-core/common/protocol"
 	"github.com/google/go-cmp/cmp"
-	"v2ray.com/core/common/protocol"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	. "v2ray.com/ext/tools/conf"
+	. "github.com/gitamenet/ext/tools/conf"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/net"
 )
 
 func TestStringListUnmarshalError(t *testing.T) {

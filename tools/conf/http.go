@@ -1,8 +1,8 @@
 package conf
 
 import (
+	"github.com/gitamenet/v2ray-core/proxy/http"
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/proxy/http"
 )
 
 type HttpAccount struct {

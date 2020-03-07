@@ -30,12 +30,12 @@ jobs:
   - checkout: none
   - script: |
       go version
-      go get -v -t -d v2ray.com/core/...
-      go get -v -t -d v2ray.com/ext/...
+      go get -v -t -d github.com/gitamenet/v2ray-core/...
+      go get -v -t -d github.com/gitamenet/ext/...
     workingDirectory: '$(system.defaultWorkingDirectory)'
     displayName: 'Fetch sources'
   - script: |
-      cd ./src/v2ray.com/ext
+      cd ./src/github.com/gitamenet/ext
       bash ./testing/coverage/coverall
     workingDirectory: '$(system.defaultWorkingDirectory)'
     displayName: 'Coverage'

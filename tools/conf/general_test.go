@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
+	. "github.com/gitamenet/ext/tools/conf"
+	"github.com/gitamenet/v2ray-core/common"
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/common"
-	. "v2ray.com/ext/tools/conf"
 )
 
 func loadJSON(creator func() Buildable) func(string) (proto.Message, error) {

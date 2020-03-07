@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"v2ray.com/core/app/router"
-	"v2ray.com/core/common/net"
-	"v2ray.com/ext/sysio"
+	"github.com/gitamenet/ext/sysio"
+	"github.com/gitamenet/v2ray-core/app/router"
+	"github.com/gitamenet/v2ray-core/common/net"
 
 	"github.com/golang/protobuf/proto"
 )

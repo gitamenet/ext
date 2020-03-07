@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"v2ray.com/core/common"
+	"github.com/gitamenet/v2ray-core/common"
 )
 
 type Config struct {

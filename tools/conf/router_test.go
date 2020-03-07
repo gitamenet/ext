@@ -6,8 +6,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"v2ray.com/core/app/router"
-	. "v2ray.com/ext/tools/conf"
+	. "github.com/gitamenet/ext/tools/conf"
+	"github.com/gitamenet/v2ray-core/app/router"
 )
 
 func TestRouterConfig(t *testing.T) {

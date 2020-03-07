@@ -5,10 +5,10 @@ package command
 import (
 	"os"
 
+	"github.com/gitamenet/ext/tools/conf/serial"
+	"github.com/gitamenet/ext/tools/control"
+	"github.com/gitamenet/v2ray-core/common"
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/common"
-	"v2ray.com/ext/tools/conf/serial"
-	"v2ray.com/ext/tools/control"
 )
 
 type ConfigCommand struct{}

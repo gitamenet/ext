@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/protocol/tls/cert"
-	"v2ray.com/core/common/task"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/protocol/tls/cert"
+	"github.com/gitamenet/v2ray-core/common/task"
 )
 
 type stringList []string

@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"strings"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/dispatcher"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/app/stats"
-	"v2ray.com/core/common/serial"
+	core "github.com/gitamenet/v2ray-core"
+	"github.com/gitamenet/v2ray-core/app/dispatcher"
+	"github.com/gitamenet/v2ray-core/app/proxyman"
+	"github.com/gitamenet/v2ray-core/app/stats"
+	"github.com/gitamenet/v2ray-core/common/serial"
 )
 
 var (
